@@ -17,7 +17,7 @@ Games/
 └── README.md        # This documentation
 ```
 
-🎮 Available Games
+## 🎮 Available Games
 ---
 1. Hangman Game : 
 A classic word-puzzle game where players guess letters to reveal a hidden word before the hangman figure is fully drawn.
@@ -26,14 +26,14 @@ A classic word-puzzle game where players guess letters to reveal a hidden word b
 An interactive puzzle game where players navigate a procedurally generated maze to reach the house.
 
 
-🎯 Purpose of This Repository
+## 🎯 Purpose of This Repository
 ---
-To practice and demonstrate web development skills, including algorithmic thinking and DOM manipulation.
++ To practice and demonstrate web development skills, including algorithmic thinking and DOM manipulation.
 
-To maintain a modular repository where each game is developed independently as a sub-project.
++ To maintain a modular repository where each game is developed independently as a sub-project.
 
 
-👧 Author
+## 👧 Author
 ---
       Auther Name  :   Trupti Y. Sabale
       Created By   :   1-Jul-2026
