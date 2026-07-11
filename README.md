@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-Welcome to my personal collection of web-based games! This repository serves as a centralized hub for my browser-based game development projects, focusing on logic, user interaction, and clean code.
+Welcome to CodeArcade Studio — a curated collection of interactive, browser‑based projects. This repository is designed as a professional showcase of my web development journey, blending games, UI experiments, and creative clones. Each project emphasizes clean code, user interaction, and modern web practices, while also leaving room for fun and experimentation.
 
 ---
 
