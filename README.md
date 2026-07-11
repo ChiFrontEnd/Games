@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-Welcome to CodeArcade Studio — a curated collection of interactive, browser‑based projects. This repository is designed as a professional showcase of my web development journey, blending games, UI experiments, and creative clones. Each project emphasizes clean code, user interaction, and modern web practices, while also leaving room for fun and experimentation.
+Welcome to CodeArcade Studio a collection of interactive, browser‑based projects. This repository is designed as a professional showcase of games, UI experiments, and creative clones. Each project emphasizes clean code, user interaction, and modern web practices, while also leaving room for fun and experimentation.
 
 ---
 
