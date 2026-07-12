@@ -27,6 +27,8 @@ Restaurant-Menu/
 ├── index.html        # Main structure and menu containers
 ├── Style.css         # CSS layout, variables, and responsive design
 ├── Script.js         # Logic for rendering items and handling filtering
+├── basic.js          # Basic js file
+├── next.txt          # Next js details
 └── README.md         # Project documentation
 
 ```
