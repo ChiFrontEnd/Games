@@ -20,13 +20,13 @@ A creative 3D card animation built with CSS and JavaScript.
 
 ## 📂 Project Structure
 ```text
-Hangman/
+3D Card Animation/
 │
-├── images/           # Contains hangman-0 to 6.svg, victory.gif, lost.gif
 ├── index.html        # Main game structure
+├── Style.scss        # Responsive styling and animations
+├── Style.css         # Responsive styling and animations
 ├── Style.css         # Responsive styling and animations
 ├── Script.js         # Core game logic
-├── word-list.js      # External file for word and hint management
 └── README.md         # Documentation
 ```
 ---
