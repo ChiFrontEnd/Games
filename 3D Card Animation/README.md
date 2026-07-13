@@ -13,7 +13,7 @@
 
 ## 🚀 Getting Started
 1. Clone or download this repository.
-2. Ensure you have the images/ folder containing the required .svg and .gif files.
+2. Ensure you have valid image link paths.
 3. Open `index.html` in your browser to start playing.
 
 ---
