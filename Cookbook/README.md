@@ -1,4 +1,4 @@
-## 🍽️ Cookbook
+## 👩🏻‍🍳 Cookbook
 ## 📌 Overview
 ***Cookbook*** is a dynamic web application built with **HTML, CSS, and JavaScript**. It allows users to filter food items by category (e.g., breakfast, lunch, shakes) in real-time, providing a seamless browsing experience.
 
@@ -14,8 +14,8 @@
 
 ## 🚀 Getting Started
 1. Clone or download this repository.
-2. Ensure you have an `images/` folder in the root directory containing the corresponding item images (item-1.jpeg, item-2.jpeg, etc.).
-3. Open `index.html` in your browser to interact with the menu.
+2. Ensure you have an `Images/` folder in the root directory containing the corresponding item images (item-1.jpeg, item-2.jpeg, etc.).
+3. Open `Index.html` in your browser to interact with the menu.
 
 ---
 
@@ -23,8 +23,8 @@
 ```text
 Restaurant-Menu/
 │
-├── images/           # Contains menu item photos
-├── index.html        # Main structure and menu containers
+├── Images/           # Contains menu item photos
+├── Index.html        # Main structure and menu containers
 ├── Style.css         # CSS layout, variables, and responsive design
 ├── Script.js         # Logic for rendering items and handling filtering
 └── README.md         # Project documentation
@@ -49,4 +49,3 @@ Restaurant-Menu/
 * **Sorting Options -** Allow users to sort dishes by price (low-to-high or high-to-low).
 * **Animations -** Add entrance animations using `CSS transitions` or `GSAP` when filtering items.
 * **Admin Dashboard -** Create a simple interface to add or edit menu items dynamically without touching the code.
-* **Cart System -** Enable users to select items and view a summary of their order.
