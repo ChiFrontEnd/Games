@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling & Dangling Letters</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="https://img.icons8.com/pulsar-gradient/48/menu.png">
+  </head>
+  <body>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: grid;
+      place-content: center;
+      background: #003049;
+      font-family: monospace;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 2em;
+      font-size: 40px;
+      font-weight: bold;
+      color: #fdf0d5;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: inherit;
+      display: flex;
+      gap: 0.15em;
+    }
+
+    ul li.dangle a span {
+      display: inline-block;
+      transform-origin: top center; /* pivot point for dangling */
+    }
+
+    ul li.dangle a:hover span {
+      animation: fall 0.6s ease forwards, dangle 1.5s ease-in-out infinite;
+      animation-fill-mode: both;
+    }
+
+    /* Falling down */
+    @keyframes fall {
+      0% { transform: translateY(0) rotate(0); opacity: 1; }
+      100% { transform: translateY(100px) rotate(20deg); opacity: 1; }
+    }
+
+    /* Dangling swing */
+    @keyframes dangle {
+      0% { transform: translateY(100px) rotate(20deg); }
+      50% { transform: translateY(100px) rotate(-20deg); }
+      100% { transform: translateY(100px) rotate(20deg); }
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="dangle">
+      <a href="#" id="dynamic-dangle">🪀 Dangle 🪀</a>
+    </li>
+  </ul>
+
+  <script>
+    // Select the link
+    const link = document.getElementById("dynamic-dangle");
+    const text = link.textContent; // original text
+    link.textContent = ""; // clear
+
+    // Wrap each character in a span and add delay
+    [...text].forEach((char, i) => {
+      const span = document.createElement("span");
+      span.textContent = char;
+      span.style.animationDelay = `${i * 0.1}s`; // dynamic stagger
+      link.appendChild(span);
+    });
+  </script>
+</body>
+</html>
