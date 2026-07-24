@@ -25,8 +25,9 @@
 ```text
 Kinetic-Typography-Lab/
 │
-├── index.html        # Combined structure, styles, and script
-└── README.md         # Project documentation
+├── Falling & dangling.html        # Combined structure, styles, and script
+├── Bounce.html                    # Combined structure, styles, and script
+└── README.md                      # Project documentation
 ```
 
 ---
