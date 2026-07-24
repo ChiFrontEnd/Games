@@ -16,7 +16,7 @@
 ## 🚀 Getting Started
 
 1. Clone or download the repository.
-2. Open `index.html` in any modern web browser to view the animations.
+2. Open `.html` in any modern web browser to view the animations.
 
 ---
 
