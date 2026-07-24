@@ -1,33 +1,30 @@
-## BrainKick (Kinetic Typography Lab)
+## Hanging Menu
 
-**Kinetic Typography Lab** is a lightweight, interactive project built with vanilla JavaScript and CSS keyframes. It features two engaging text hover effects: letters that fall and dangle like a swing, and letters that bounce smoothly to a stop.
+***Hanging Menu*** is a clean and creative navigation menu template featuring individual character span elements styled for interactive typography layouts. It provides a structured, modern layout suitable for personal portfolios and creative landing pages.
 
 ---
 
 ## ✨ Features
-
-* **Interactive Text Effects:** Combines a continuous dangling animation with a multi-step bounce landing.
-* **Dynamic JavaScript Setup:** Automatically wraps each letter in a span tag for precise, individual control.
-* **Staggered Motion:** Uses index-based delays to create a smooth, cascading wave effect across words.
-* **Pure Native Code:** Built entirely with standard HTML5, CSS3, and JavaScript—no external libraries needed.
+* **Structured Character Elements:** Organizes navigation text items into individual span tags for granular layout and styling control.
+* **External Stylesheet Integration:** Separates presentation logic into an independent `Style.css` file for maintainability.
+* **Modern Responsive Design:** Includes meta viewport configurations for optimal scaling across desktop and mobile displays.
 
 ---
 
 ## 🚀 Getting Started
-
-1. Clone or download the repository.
-2. Open `.html` in any modern web browser to view the animations.
+1. Clone or download this repository.
+2. Ensure both `index.html` and `Style.css` are in the same directory.
+3. Open `index.html` in any modern web browser to view the menu.
 
 ---
 
 ## 📂 Project Structure
-
 ```text
-Kinetic-Typography-Lab/
+Hanging-Menu/
 │
-├── Falling & Dangling.html        # Combined structure, styles, and script
-├── Smooth Bounce.html             # Combined structure, styles, and script
-└── README.md                      # Project documentation
+├── index.html        # Main navigation structure
+├── Style.css         # Stylesheet for layout and appearance
+└── README.md         # Project documentation
 ```
 
 ---
@@ -36,7 +33,6 @@ Kinetic-Typography-Lab/
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/GITHUB%20DESKTOP-852EA5?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
 </div>
@@ -44,5 +40,5 @@ Kinetic-Typography-Lab/
 ---
 
 ## 📌 Future Enhancements
-* **Custom Controls:** Add inputs allowing users to type their own words and test animations instantly.
-* **More Presets:** Introduce additional effects like waves or 3D flips.
+* **Hover Animations:** Add interactive transition effects to individual menu letters on mouse hover.
+* **Dynamic Scripting:** Integrate JavaScript to automatically wrap menu labels into spans instead of hardcoding them in HTML.
