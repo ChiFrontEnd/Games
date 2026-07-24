@@ -42,6 +42,5 @@ Kinetic-Typography-Lab/
 ---
 
 ## 📌 Future Enhancements
-📌 Future Enhancements
 * **Custom Controls:** Add inputs allowing users to type their own words and test animations instantly.
 * **More Presets:** Introduce additional effects like waves or 3D flips.
