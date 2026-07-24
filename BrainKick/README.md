@@ -1,34 +1,32 @@
-## BrainKick
+## BrainKick (Kinetic Typography Lab)
 
-***Art Print Showcase*** is an elegant, minimalist landing page template designed to display digital art prints. It features a sophisticated layout that balances descriptive text with a stylized, framed hero image, perfect for creators looking to sell or exhibit digital downloads.
+**Kinetic Typography Lab** is a lightweight, interactive project built with vanilla JavaScript and CSS keyframes. It features two engaging text hover effects: letters that fall and dangle like a swing, and letters that bounce smoothly to a stop.
 
 ---
 
 ## ✨ Features
 
-* **Sophisticated Aesthetic -** Utilizes a warm, serif-based design with subtle shadows and rotation effects to give the art a "gallery-ready" feel.
-* **Floating UI Elements -** Includes a stylized card overlay on the hero art to highlight "New drops" or collections effectively.
-* **Responsive Layout -** Uses CSS Flexbox to ensure the text-and-image pairing looks great across different screen sizes.
-* **Print-Ready Details -** A clear, bulleted list section specifically tailored for showcasing technical print specifications (DPI, file sizes, etc.).
-* **Polished Typography -** Carefully balanced font hierarchy and spacing for a professional, high-end look.
+* **Interactive Text Effects:** Combines a continuous dangling animation with a multi-step bounce landing.
+* **Dynamic JavaScript Setup:** Automatically wraps each letter in a span tag for precise, individual control.
+* **Staggered Motion:** Uses index-based delays to create a smooth, cascading wave effect across words.
+* **Pure Native Code:** Built entirely with standard HTML5, CSS3, and JavaScript—no external libraries needed.
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone or download this repository.
-2. Open `index.html` in your browser to view the showcase.
+1. Clone or download the repository.
+2. Open `index.html` in any modern web browser to view the animations.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-Art-Print-Showcase/
+Kinetic-Typography-Lab/
 │
-├── index.html        # Main landing page structure
-└── README.md            # This documentation
-
+├── index.html        # Combined structure, styles, and script
+└── README.md         # Project documentation
 ```
 
 ---
@@ -44,7 +42,6 @@ Art-Print-Showcase/
 ---
 
 ## 📌 Future Enhancements
-* **Image Carousel -** Allow users to cycle through different prints within the same frame.
-* **Lightbox Integration -** Click the frame to open a full-screen, high-resolution view of the artwork.
-* **Dynamic Data -** Connect to an external JSON file to manage multiple collections without changing the HTML.
-* **Hover Animations -** Add subtle interactions (e.g., the frame scales slightly when hovered).
+📌 Future Enhancements
+* **Custom Controls:** Add inputs allowing users to type their own words and test animations instantly.
+* **More Presets:** Introduce additional effects like waves or 3D flips.
