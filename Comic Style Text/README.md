@@ -1,35 +1,30 @@
-# Comic Style Text
+## Comic Style Text
 
-## BrainKick (Kinetic Typography Lab)
-
-**Kinetic Typography Lab** is a lightweight, interactive project built with vanilla JavaScript and CSS keyframes. It features two engaging text hover effects: letters that fall and dangle like a swing, and letters that bounce smoothly to a stop.
+**Comic Style Text Bubbles** is a pure CSS and HTML project featuring vibrant comic-book-inspired speech bubbles, splash graphics, and stylized typography. It uses modern CSS clip-paths, gradients, and custom web fonts to recreate a dynamic pop-art layout.
 
 ---
 
 ## ✨ Features
-
-* **Interactive Text Effects:** Combines a continuous dangling animation with a multi-step bounce landing.
-* **Dynamic JavaScript Setup:** Automatically wraps each letter in a span tag for precise, individual control.
-* **Staggered Motion:** Uses index-based delays to create a smooth, cascading wave effect across words.
-* **Pure Native Code:** Built entirely with standard HTML5, CSS3, and JavaScript—no external libraries needed.
+* **Pure CSS Comic Graphics:** Uses advanced `clip-path` properties and geometric gradients to construct stylized comic panels and explosion effects.
+* **Custom Web Typography:** Incorporates popular comic-style Google Fonts (`Bangers`, `Bowlby One SC`, `Luckiest Guy`, and `Sigmar`).
+* **Layered Text Styling:** Leverages complex CSS text-shadows and CSS variables to give letters a bold, illustrated comic book appearance.
+* **Responsive Grid Layout:** Arranges UI elements dynamically within a flexible CSS grid framework.
 
 ---
 
 ## 🚀 Getting Started
-
-1. Clone or download the repository.
-2. Open `.html` in any modern web browser to view the animations.
+1. Clone or download this repository.
+2. Open `Comic Style Text Bubbles.html` in any modern web browser to view the comic layout.
 
 ---
 
 ## 📂 Project Structure
-
 ```text
-Kinetic-Typography-Lab/
+Comic-Style-Text-Bubbles/
 │
-├── Falling & Dangling.html        # Combined structure, styles, and script
-├── Smooth Bounce.html             # Combined structure, styles, and script
-└── README.md                      # Project documentation
+├── Comic Style Text Bubbles.html      # Main structure containing comic items and speech bubbles
+├── Comic Style Text Bubbles.css       # Stylesheet for layout, panels, and typography
+└── README.md                          # Project documentation
 ```
 
 ---
@@ -46,5 +41,5 @@ Kinetic-Typography-Lab/
 ---
 
 ## 📌 Future Enhancements
-* **Custom Controls:** Add inputs allowing users to type their own words and test animations instantly.
-* **More Presets:** Introduce additional effects like waves or 3D flips.
+* **Interactive Hover Actions:** Add popup or scaling animations when hovering over individual panels.
+* **Dynamic Content Support:** Allow users to easily customize or swap out comic bubble text via a simple script.
