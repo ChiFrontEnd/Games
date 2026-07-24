@@ -26,7 +26,7 @@
 Kinetic-Typography-Lab/
 │
 ├── Falling & Dangling.html        # Combined structure, styles, and script
-├── Soomth Bounce.html             # Combined structure, styles, and script
+├── Smooth Bounce.html             # Combined structure, styles, and script
 └── README.md                      # Project documentation
 ```
 
