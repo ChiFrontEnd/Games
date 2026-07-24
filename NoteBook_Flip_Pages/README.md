@@ -25,7 +25,7 @@ This project uses 3D transforms, sequential transitions, and creative layering t
 ## 📂 File Structure
 ```
 Notebook-Pages-Flip/
-│── index.html              # Main HTML structure
+│── Notebook Page Flip.html              # Main HTML structure
 │── Notebook Page Flip.css  # Styling and animations
 │── README.md               # Project documentation
 ```
